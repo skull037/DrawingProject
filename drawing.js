@@ -24,7 +24,7 @@ canvas.fillStyle = color;
 canvas.fill();
 
 }
-//19
+//21
 //background
 drawCircle("#fff", 650, 25, 50, 0,2*Math.PI);
 drawCircle("#eee", 675, 25, 5, 0,2*Math.PI);
@@ -35,7 +35,8 @@ drawCircle("#090", 1000, 600, 250, 0,2*Math.PI);
 drawCircle("#090", 1300, 600, 150, 0,2*Math.PI);
 
 drawCircle("#090", 100, 600, 250, 0,2*Math.PI);
-drawCircle("#090", 100, 600, 150, 0,2*Math.PI);
+drawCircle("#090", 0, 600, 150, 0,2*Math.PI);
+drawCircle("#090", 100, 600, 50, 0,2*Math.PI);
 //city
 drawRectangle("#233", 600,100,100,600);
 
@@ -51,6 +52,8 @@ drawRectangle("#555", 200, 400, 100, 400);
 drawTriangle("#aaa", 800, 600,900,500,1000,600);
 drawTriangle("gray", 800, 600,1000,500,1000,600);
 drawTriangle("gray", 800, 600,800,500,1000,600);
+
+drawRectangle("#gray", 1100,300,100,600);
 
 //foreground
 drawRectangle("green", 0,575,25000,100);
